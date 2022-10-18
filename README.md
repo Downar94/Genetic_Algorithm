@@ -1,9 +1,9 @@
 # Genetic_Algorithm
-- Description
-- Results
-
+- [Description](#desc)
+- [Results](#result)
+<a name="desc"></a>
 ## Description
-Genetic Algorithm is one of the evolutionary algorithms. This kind of algorithm allows to resolve many problems thanks to the evolutionary model with different modifications during the stages of the life cycle. For my purpose i have used the genetic algorithm for resolving salesman travelling problem. Genetic algorithms are searching the large space of solutions and choosing the best one. As you can see on the graph <...>, the best solution is only the local best solution, not the global one. In my case the quality of the best local solution depends of the number of algorithm's iterations. The genetic algorithm that i have implemented consists of the following steps:
+Genetic Algorithm is one of the evolutionary algorithms. This kind of algorithm allows to resolve many problems thanks to the evolutionary model with different modifications during the stages of the life cycle. For my purpose i have used the genetic algorithm for resolving salesman travelling problem. Genetic algorithms are searching the large space of solutions and choosing the best one. As you can see on the [graph](#graph), the best solution is only the local best solution, not the global one. In my case the quality of the best local solution depends of the number of algorithm's iterations. The genetic algorithm that i have implemented consists of the following steps:
 1. Set algorithm parameters such as mutation rate, iteration number, chromosome number, city list (only for the salesman travelling problem).
 2. Generate population - the population consists of the chromosomes created by sampling the city list. Each gene in the chromosome is the number of the city from the list, each individual chromosome contains information about sequence of the visited cities.
 ![im1](https://user-images.githubusercontent.com/44844566/196499983-5cbef323-6933-4cc1-baad-14ae90842309.PNG)
@@ -19,8 +19,10 @@ Genetic Algorithm is one of the evolutionary algorithms. This kind of algorithm 
 ![im6](https://user-images.githubusercontent.com/44844566/196499998-b94fc7cb-674d-4074-a05a-9fc77e03f536.PNG)
 8. Repeat steps 4-7 for a given number of iterations. 
 9. Choose the chromosome with the best ranking from the final population - it is our best local solution.
+<a name="result"></a>
 ## Results
 ### Final shortest path:
 ![result](https://user-images.githubusercontent.com/44844566/194939635-897acc2e-f3e7-44d4-b02e-7f8d71a981d6.gif)
+<a name="graph"></a>
 ### Line graph:
 ![graph](https://user-images.githubusercontent.com/44844566/194936476-f954aada-0f30-40ab-be00-d6c66f50de18.PNG)
